@@ -1,13 +1,13 @@
 def numeros():
-    num1 = int(input("Ingrese un primer número entero: "))
-    num2 = int(input("Ingrese un segundo número entero: "))
+    num1 = int(input("Ingrese un primer numero entero: "))
+    num2 = int(input("Ingrese un segundo numero entero: "))
 
-    print("Números pares:")
+    print("Numeros pares:")
     for num in range(num1, num2 + 1):
         if num % 2 == 0:
             print(num)
 
-    print("Números impares:")
+    print("Numeros impares:")
     for num in range(num1, num2 + 1):
         if num % 2 != 0:
             print(num)
